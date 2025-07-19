@@ -64,7 +64,7 @@ if __name__ == "__main__":
                 webbrowser.open("https://ffmpeg.org/download.html")
                 break
             elif choice in ["n", "no"]:
-                print("❌ Cannot proceed without FFmpeg. Exiting.")
+                print("Cannot proceed without FFmpeg. Exiting.")
                 exit()
             else:
                 print("Please enter a valid answer.")
@@ -73,5 +73,5 @@ if __name__ == "__main__":
             cut_video_with_note()
             loop = input("Cut another video? (y/n): ").strip().lower()
             if loop != "y":
-                print("👋 Goodbye!")
+                print("Goodbye!")
                 break
